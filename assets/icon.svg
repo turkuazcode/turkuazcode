@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>TurkuazCode</title>
+  <defs>
+    <linearGradient id="tc" gradientUnits="userSpaceOnUse" x1="110" y1="70" x2="470" y2="440">
+      <stop offset="0" stop-color="#62D2D2"/>
+      <stop offset="0.5" stop-color="#1CA3B3"/>
+      <stop offset="1" stop-color="#0D6A82"/>
+    </linearGradient>
+    <linearGradient id="tw" gradientUnits="userSpaceOnUse" x1="300" y1="280" x2="480" y2="60">
+      <stop offset="0" stop-color="#168EA2"/>
+      <stop offset="1" stop-color="#6AD6D3"/>
+    </linearGradient>
+    <linearGradient id="ts" gradientUnits="userSpaceOnUse" x1="310" y1="176" x2="266" y2="350">
+      <stop offset="0" stop-color="#147F93"/>
+      <stop offset="1" stop-color="#0B5E74"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-46 7)">
+    <!-- secondary feathers -->
+    <path fill="url(#tc)" d="M300 226 C350 196 404 170 462 146 C444 194 396 228 300 252 Z"/>
+    <path fill="url(#tc)" d="M296 262 C344 246 392 232 432 222 C414 256 370 274 292 284 Z"/>
+    <path fill="url(#tc)" opacity="0.85" d="M322 418 C376 410 428 398 474 392 C436 414 390 428 322 418 Z"/>
+    <!-- head, neck, body and tail -->
+    <path fill="url(#tc)" d="M148 138 C150 170 140 198 120 233 A134 134 0 1 0 339 386 C358 363 430 350 500 342 C450 336 321 339 305 358 A90 90 0 1 1 178 231 C190 221 196 170 196 124 C200 108 204 96 218 80 C206 84 196 88 186 94 C160 92 130 104 104 120 C124 124 140 128 148 138 Z"/>
+    <!-- top arc into the main wing -->
+    <path fill="url(#tc)" d="M159 191 A134 134 0 0 1 271 171 C300 179 388 118 478 62 C446 128 382 180 320 208 L267 215 A90 90 0 0 0 178 231 Z"/>
+    <!-- T stem -->
+    <path fill="url(#ts)" d="M292 176 L332 176 C316 236 296 296 272 346 C268 352 262 350 262 342 C270 290 280 236 292 176 Z"/>
+    <circle cx="168" cy="108" r="4.5" fill="#FFFFFF"/>
+  </g>
+</svg>
