@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TurkuazCode — Yapay Zekâ Destekli Yazılım Çözümleri</title>
+  <meta name="description" content="TurkuazCode; yayınevleri, dershaneler, e-ticaret ve belediyeler için yapay zekâ destekli SaaS platformları, mobil ve masaüstü uygulamalar geliştirir.">
+  <link rel="canonical" href="https://turkuazcode.com/">
+  <meta name="theme-color" content="#07131E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TurkuazCode">
+  <meta property="og:title" content="TurkuazCode — Yapay Zekâ Destekli Yazılım Çözümleri">
+  <meta property="og:description" content="Yapay zekâ destekli SaaS platformları, mobil ve masaüstü uygulamalar. Türkiye'den.">
+  <meta property="og:url" content="https://turkuazcode.com/">
+  <meta property="og:image" content="https://turkuazcode.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="TurkuazCode — Premium Software">
+  <meta property="og:locale" content="tr_TR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://turkuazcode.com/assets/og-image.png">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" href="assets/fonts/outfit-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var p = new URLSearchParams(location.search).get("theme");
+      if (p === "dark" || p === "light") document.documentElement.dataset.theme = p;
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TurkuazCode",
+    "url": "https://turkuazcode.com/",
+    "logo": "https://turkuazcode.com/assets/logo-512.png",
+    "description": "Yapay zekâ destekli SaaS platformları, mobil ve masaüstü uygulamalar geliştiren yazılım şirketi.",
+    "email": "turkuazcode@gmail.com",
+    "telephone": "+90 539 690 85 01",
+    "address": { "@type": "PostalAddress", "addressCountry": "TR" },
+    "sameAs": ["https://github.com/turkuazcode", "https://www.instagram.com/turkuazcode/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">İçeriğe geç</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="TurkuazCode ana sayfa">
+        <img class="brand-logo" src="assets/logo-imza-koyu-zemin.svg" alt="" width="230" height="40">
+      </a>
+      <nav class="nav" id="nav" aria-label="Ana menü">
+        <a href="#urunler" data-i18n="nav.products">Ürünler</a>
+        <a href="#hizmetler" data-i18n="nav.services">Hizmetler</a>
+        <a href="#surec" data-i18n="nav.process">Süreç</a>
+        <a href="#hakkimizda" data-i18n="nav.about">Hakkımızda</a>
+        <a href="#iletisim" data-i18n="nav.contact">İletişim</a>
+        <a class="btn btn-primary nav-cta" href="#iletisim" data-i18n="cta.talk">Projenizi konuşalım</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang" id="langToggle" type="button" aria-label="Switch to English">EN</button>
+        <a class="btn btn-primary btn-sm hide-md" href="#iletisim" data-i18n="cta.talk">Projenizi konuşalım</a>
+        <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menü">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <svg class="tile-bg" focusable="false">
+          <defs>
+            <pattern id="cini" width="64" height="64" patternUnits="userSpaceOnUse">
+              <g fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="18" y="18" width="28" height="28"/>
+                <rect x="18" y="18" width="28" height="28" transform="rotate(45 32 32)"/>
+                <circle cx="32" cy="32" r="4"/>
+                <path d="M0 32h6M58 32h6M32 0v6M32 58v6"/>
+              </g>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#cini)"/>
+        </svg>
+      </div>
+
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="badge"><span class="badge-dot"></span><span data-i18n="hero.badge">Yapay zekâ destekli yazılım · Türkiye</span></p>
+          <h1 data-i18n="hero.title">Kurumunuzu yapay zekâyla hızlandıran yazılım ürünleri.</h1>
+          <p class="lead" data-i18n="hero.lead">Yayınevleri, dershaneler, online mağazalar ve belediyeler için SaaS platformları, mobil ve masaüstü uygulamalar geliştiriyoruz. Fikirden canlıya kadar tek ekip.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="#iletisim" data-i18n="cta.talk">Projenizi konuşalım</a>
+            <a class="btn btn-outline-light btn-lg" href="#urunler" data-i18n="cta.products">Ürünleri inceleyin</a>
+          </div>
+          <ul class="platforms" aria-label="Platformlar">
+            <li>Web</li><li>iOS</li><li>Android</li><li>Windows</li><li>Linux</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="window">
+            <div class="window-bar">
+              <span class="dots"><i></i><i></i><i></i></span>
+              <span class="window-title">TurkuazChat · <span data-i18n="mock.inbox">Gelen kutusu</span></span>
+            </div>
+            <div class="inbox">
+              <ul class="inbox-list">
+                <li class="active">
+                  <span class="av av-a">B</span>
+                  <span class="il-text"><b>butik.moda</b><small data-i18n="mock.l1">Keten gömleğin M bedeni…</small></span>
+                  <span class="ch ch-ig">IG</span>
+                </li>
+                <li>
+                  <span class="av av-b">E</span>
+                  <span class="il-text"><b>Elif K.</b><small data-i18n="mock.l2">Kargom nerede?</small></span>
+                  <span class="ch ch-wa">WA</span>
+                </li>
+                <li>
+                  <span class="av av-c">M</span>
+                  <span class="il-text"><b>mert.y</b><small data-i18n="mock.l3">İade süreci nasıl?</small></span>
+                  <span class="ch ch-ig">IG</span>
+                </li>
+              </ul>
+              <div class="conv">
+                <p class="msg in" data-i18n="chat.q1">Merhaba, keten gömleğin M bedeni var mı? Kargo ne kadar sürer?</p>
+                <p class="msg out" data-i18n="chat.a1">Merhaba! M beden beyaz ve bej renkte stokta. 16.00'ya kadar verilen siparişler aynı gün kargoda, teslimat 1–3 iş günü.</p>
+                <p class="auto-tag"><span class="spark">✦</span> <span data-i18n="mock.auto">TurkuazChat yanıtladı · 4 sn</span></p>
+                <div class="conv-input"><span data-i18n="mock.reply">Yanıt yazın…</span><i></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="float-card fc-1">
+            <span class="fc-icon fc-ok">✓</span>
+            <span><b data-i18n="mock.f1t">Soru taslağı hazır</b><small data-i18n="mock.f1d">Editör onayında · 8. sınıf matematik</small></span>
+          </div>
+          <div class="float-card fc-2">
+            <span class="fc-icon fc-scan">▦</span>
+            <span><b data-i18n="mock.f2t">Optik okuma tamamlandı</b><small data-i18n="mock.f2d">48 form işlendi</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <dl class="facts">
+          <div><dt>6</dt><dd data-i18n="facts.products">ürün</dd></div>
+          <div><dt>4</dt><dd data-i18n="facts.refs">referans kurum</dd></div>
+          <div><dt>5</dt><dd data-i18n="facts.platforms">platform: web, iOS, Android, Windows, Linux</dd></div>
+          <div><dt>3</dt><dd data-i18n="facts.sectors">sektör: eğitim, e&#8209;ticaret, kamu</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- REFERENCES -->
+    <section class="refs" id="referanslar" aria-labelledby="refs-title">
+      <div class="wrap">
+        <div class="refs-head">
+          <p class="eyebrow" data-i18n="refs.eyebrow">Referanslar</p>
+          <h2 id="refs-title" data-i18n="refs.title">Birlikte çalıştığımız kurumlar</h2>
+        </div>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-logo"><img src="assets/referanslar/ermenek-belediyesi.webp" alt="Ermenek Belediyesi logosu" width="56" height="56" loading="lazy"></span>
+            <b>Ermenek Belediyesi</b><span class="ref-sector" data-i18n="group.public">Kamu</span>
+          </li>
+          <li>
+            <span class="ref-logo"><img src="assets/referanslar/egitim-dunyasi.webp" alt="Eğitim Dünyası logosu" width="88" height="56" loading="lazy"></span>
+            <b>Eğitim Dünyası</b><span class="ref-sector" data-i18n="group.edu">Eğitim ve yayıncılık</span>
+          </li>
+          <li>
+            <span class="ref-logo"><img src="assets/referanslar/semre-butik.webp" alt="Semre Butik logosu" width="146" height="36" loading="lazy"></span>
+            <b>Semre Butik</b><span class="ref-sector" data-i18n="group.ecom">E-ticaret</span>
+          </li>
+          <li>
+            <span class="ref-logo"><img src="assets/referanslar/eflatun-collection.webp" alt="Eflatun Collection logosu" width="56" height="56" loading="lazy"></span>
+            <b>Eflatun Collection</b><span class="ref-sector" data-i18n="group.ecom">E-ticaret</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section" id="urunler" aria-labelledby="products-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="products.eyebrow">Ürün ailesi</p>
+          <h2 id="products-title" data-i18n="products.title">Gerçek iş problemleri için geliştirilmiş ürünler</h2>
+          <p data-i18n="products.lead">Hazır ürünlerimizi kurumunuza göre uyarlıyor, ihtiyaç duyduğunuzda size özel modüller geliştiriyoruz.</p>
+        </div>
+
+        <div class="suite">
+          <div class="suite-head">
+            <div>
+              <p class="tag" data-i18n="group.edu">Eğitim ve yayıncılık</p>
+              <h3 data-i18n="suite.title">Eğitim ürünleri</h3>
+            </div>
+            <div class="tabs" role="tablist" aria-label="Eğitim ürünleri">
+              <button role="tab" id="tab-pub" aria-controls="panel-pub" aria-selected="true" data-i18n="p.pub.t">Yayınevi Platformu</button>
+              <button role="tab" id="tab-mirror" aria-controls="panel-mirror" aria-selected="false" tabindex="-1" data-i18n="p.mirror.t">Ayna Soru Platformu</button>
+              <button role="tab" id="tab-center" aria-controls="panel-center" aria-selected="false" tabindex="-1" data-i18n="p.center.t">Dershane Yönetim Sistemi</button>
+            </div>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-pub" aria-labelledby="tab-pub">
+            <div class="panel-copy">
+              <p data-i18n="p.pub.d">Yayınevleri için uçtan uca içerik üretim platformu. Yapay zekâ taslağı hazırlar, editör onaylar, sistem kitapçığı dizer.</p>
+              <ul class="checks">
+                <li data-i18n="p.pub.b1">Kazanım bazlı soru bankası</li>
+                <li data-i18n="p.pub.b2">Yapay zekâ destekli soru ve çözüm yazımı</li>
+                <li data-i18n="p.pub.b3">Test kitapçığı dizgisi, PDF ve Word çıktısı</li>
+                <li data-i18n="p.pub.b4">Her içerik yayından önce editör onayından geçer</li>
+              </ul>
+              <p class="used-by"><span data-i18n="usedby">Kullanan:</span> Eğitim Dünyası</p>
+              <button class="link-btn" type="button" data-topic="p.pub.t" data-i18n="cta.demo">Demo talep et</button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock-bar"><span class="dots"><i></i><i></i><i></i></span><span data-i18n="mock.editor">Soru Editörü · 8. Sınıf Matematik</span></div>
+              <div class="mock-body">
+                <p class="q-label" data-i18n="mock.q">Soru 14 · Üslü ifadeler</p>
+                <p class="q-text">2<sup>5</sup> · 2<sup>3</sup> <span data-i18n="mock.qtext">işleminin sonucu kaçtır?</span></p>
+                <ol class="opts">
+                  <li class="correct"><b>A</b><span>2<sup>8</sup></span></li>
+                  <li><b>B</b><span>2<sup>15</sup></span></li>
+                  <li><b>C</b><span>4<sup>8</sup></span></li>
+                  <li><b>D</b><span>2<sup>2</sup></span></li>
+                </ol>
+                <div class="ai-box">
+                  <p class="ai-label"><span class="spark">✦</span> <span data-i18n="mock.aidraft">Yapay zekâ çözüm taslağı</span></p>
+                  <p data-i18n="mock.solution">Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır: 5 + 3 = 8, sonuç 2⁸.</p>
+                </div>
+                <div class="mock-actions">
+                  <span class="pill pill-wait" data-i18n="mock.pending">Editör onayı bekliyor</span>
+                  <span class="mock-btn" data-i18n="mock.edit">Düzenle</span>
+                  <span class="mock-btn mock-btn-primary" data-i18n="mock.approve">Onayla</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-mirror" aria-labelledby="tab-mirror" hidden>
+            <div class="panel-copy">
+              <p data-i18n="p.mirror.d">Kitaptaki her test, dijital pratik setine dönüşür. Öğrenci QR kodu okutur, aynı kazanımlarda yeni sorular çözer.</p>
+              <ul class="checks">
+                <li data-i18n="p.mirror.b1">Kitaptaki teste bağlı QR kod</li>
+                <li data-i18n="p.mirror.b2">Aynı kazanımlarda yeni pratik testleri</li>
+                <li data-i18n="p.mirror.b3">Anında sonuç, sıralama ve çözümler</li>
+                <li data-i18n="p.mirror.b4">Yayınevi için kullanım ve başarı raporları</li>
+              </ul>
+              <button class="link-btn" type="button" data-topic="p.mirror.t" data-i18n="cta.demo">Demo talep et</button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock-bar"><span class="dots"><i></i><i></i><i></i></span><span data-i18n="mock.result">Test 4 · Sonuç</span></div>
+              <div class="mock-body">
+                <div class="score">
+                  <div class="ring" style="--p: 90"><span>9/10</span></div>
+                  <div class="score-text">
+                    <b data-i18n="mock.great">Harika gidiyorsun!</b>
+                    <small data-i18n="mock.rank">Sıralama: 12. / 340 öğrenci</small>
+                  </div>
+                </div>
+                <ul class="bars">
+                  <li><span data-i18n="mock.k1">Üslü ifadeler</span><i style="--w: 100%"></i></li>
+                  <li><span data-i18n="mock.k2">Kareköklü ifadeler</span><i style="--w: 80%"></i></li>
+                  <li><span data-i18n="mock.k3">Veri analizi</span><i style="--w: 90%"></i></li>
+                </ul>
+                <div class="mock-actions">
+                  <span class="mock-btn" data-i18n="mock.solutions">Çözümleri gör</span>
+                  <span class="mock-btn mock-btn-primary" data-i18n="mock.newtest">Yeni test çöz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-center" aria-labelledby="tab-center" hidden>
+            <div class="panel-copy">
+              <p data-i18n="p.center.d">Dershaneler ve kurs merkezleri için çok kiracılı yönetim platformu. Her kurumun verisi ayrı, her rolün uygulaması kendine.</p>
+              <ul class="checks">
+                <li data-i18n="p.center.b1">Öğretmen, öğrenci ve veli mobil uygulamaları</li>
+                <li data-i18n="p.center.b2">Optik form okuma ve otomatik sonuçlandırma</li>
+                <li data-i18n="p.center.b3">Yapay zekâ destekli kişisel öğrenme</li>
+                <li data-i18n="p.center.b4">Kurum başına ayrı veri, rol ve yetki yönetimi</li>
+              </ul>
+              <button class="link-btn" type="button" data-topic="p.center.t" data-i18n="cta.demo">Demo talep et</button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock-bar"><span class="dots"><i></i><i></i><i></i></span><span data-i18n="mock.panel">Kurum Paneli · Bugün</span></div>
+              <div class="mock-body">
+                <div class="kpis">
+                  <div><small data-i18n="mock.attend">Yoklama</small><b>%94</b></div>
+                  <div><small data-i18n="mock.optic">Optik form</small><b>48</b></div>
+                  <div><small data-i18n="mock.msgs">Veli mesajı</small><b>12</b></div>
+                </div>
+                <ul class="rows">
+                  <li><span class="av av-b">A</span><span><b data-i18n="mock.r1t">TYT Deneme 3 sonuçları</b><small data-i18n="mock.r1d">Velilere bildirim gönderildi</small></span><span class="pill pill-ok" data-i18n="mock.sent">Gönderildi</span></li>
+                  <li><span class="av av-c">D</span><span><b data-i18n="mock.r2t">11-B sınıfı ödev planı</b><small data-i18n="mock.r2d">Yapay zekâ öneri hazırladı</small></span><span class="pill pill-wait" data-i18n="mock.review">İncelemede</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-cards">
+          <article class="pcard">
+            <div class="pcard-visual pv-chat" aria-hidden="true">
+              <span class="bubble b-in" data-i18n="pv.chat1">Bu ürün stokta var mı?</span>
+              <span class="bubble b-out" data-i18n="pv.chat2">Evet, hemen sipariş bağlantısını gönderiyorum.</span>
+            </div>
+            <div class="pcard-body">
+              <p class="tag" data-i18n="group.ecom">E-ticaret</p>
+              <h3>TurkuazChat</h3>
+              <p data-i18n="p.chat.d">Instagram ve WhatsApp'tan satış yapan mağazalar için 7/24 yapay zekâ müşteri asistanı. DM'leri, yorumları ve mesajları doğal Türkçe ile yanıtlar.</p>
+              <p class="used-by"><span data-i18n="usedby">Kullanan:</span> Semre Butik, Eflatun Collection</p>
+              <button class="link-btn" type="button" data-topic="TurkuazChat" data-i18n="cta.demo">Demo talep et</button>
+            </div>
+          </article>
+          <article class="pcard">
+            <div class="pcard-visual pv-muni">
+              <span class="phone"><img src="assets/urunler/belediye-anasayfa.webp" alt="Ermenek Belediyesi uygulaması, ana sayfa" width="360" height="779" loading="lazy"></span>
+              <span class="phone"><img src="assets/urunler/belediye-hizmetler.webp" alt="Ermenek Belediyesi uygulaması, hizmetler ekranı" width="360" height="779" loading="lazy"></span>
+            </div>
+            <div class="pcard-body">
+              <p class="tag" data-i18n="group.public">Kamu</p>
+              <h3 data-i18n="p.muni.t">Belediye Mobil Uygulaması</h3>
+              <p data-i18n="p.muni.d">Haberler, vatandaş talepleri ve resmî belgeler üzerinde çalışan yapay zekâ asistanı. KVKK'ya uygun veri yönetimiyle tasarlandı.</p>
+              <p class="used-by"><span data-i18n="usedby">Kullanan:</span> Ermenek Belediyesi</p>
+              <button class="link-btn" type="button" data-topic="p.muni.t" data-i18n="cta.demo">Demo talep et</button>
+            </div>
+          </article>
+          <article class="pcard">
+            <div class="pcard-visual pv-hs">
+              <span class="desk"><img src="assets/urunler/hs-studio-foto.webp" alt="HS Studio fotoğraf stüdyosu ekranı" width="880" height="550" loading="lazy"></span>
+            </div>
+            <div class="pcard-body">
+              <p class="tag tag-oss" data-i18n="group.oss">Açık kaynak</p>
+              <h3>HS Studio</h3>
+              <p data-i18n="p.hs.d">Video oynatıcı, fotoğraf stüdyosu ve müzik çalar tek masaüstü uygulamada. Orijinal dosyalara dokunmaz, çevrimdışı çalışır.</p>
+              <a class="link-btn" href="https://github.com/turkuazcode/hs-studio" target="_blank" rel="noopener" data-i18n="cta.github">GitHub'da incele</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-tint" id="hizmetler" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="services.eyebrow">Hizmetler</p>
+          <h2 id="services-title" data-i18n="services.title">Ürününüzü birlikte geliştirelim</h2>
+          <p data-i18n="services.lead">Hazır ürünlerimizin arkasındaki deneyimi size özel projelere taşıyoruz.</p>
+        </div>
+        <div class="services">
+          <article class="service">
+            <div class="s-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M7 8h4M7 11h7"/></svg></div>
+            <h3 data-i18n="s.saas.t">Çok kiracılı SaaS platformları</h3>
+            <p data-i18n="s.saas.d">Web yönetim panelleri ve mobil uygulamalarıyla birlikte; kurum başına ayrı veri, rol ve yetki yönetimi.</p>
+            <ul class="chips"><li>Multi-tenant</li><li>RBAC</li><li data-i18n="s.saas.c3">Abonelik</li></ul>
+          </article>
+          <article class="service">
+            <div class="s-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18 15l.9 2.1L21 18l-2.1.9L18 21l-.9-2.1L15 18l2.1-.9z"/></svg></div>
+            <h3 data-i18n="s.ai.t">Uygulamalı yapay zekâ</h3>
+            <p data-i18n="s.ai.d">İçerik üretimi, müşteri asistanları ve belgeler üzerinde arama (RAG). Sonuçlar insan onayıyla yayına çıkar.</p>
+            <ul class="chips"><li>LLM</li><li>RAG</li><li data-i18n="s.ai.c3">Asistanlar</li></ul>
+          </article>
+          <article class="service">
+            <div class="s-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+            <h3 data-i18n="s.app.t">Mobil ve masaüstü uygulamalar</h3>
+            <p data-i18n="s.app.d">iOS ve Android için Flutter ve React Native; Windows ve Linux için Tauri ve Rust.</p>
+            <ul class="chips"><li>Flutter</li><li>React Native</li><li>Tauri</li><li>Rust</li></ul>
+          </article>
+          <article class="service">
+            <div class="s-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"/><path d="M5 5.5v6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-6M5 11.5v6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-6"/></svg></div>
+            <h3 data-i18n="s.be.t">Backend ve altyapı</h3>
+            <p data-i18n="s.be.d">Ölçeklenebilir, test edilmiş sunucu tarafı, API'ler ve veritabanı tasarımı.</p>
+            <ul class="chips"><li>NestJS</li><li>FastAPI</li><li>Django</li><li>PostgreSQL</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="surec" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="process.eyebrow">Süreç</p>
+          <h2 id="process-title" data-i18n="process.title">Fikirden canlıya dört adım</h2>
+        </div>
+        <ol class="process">
+          <li><span class="p-num">01</span><h3 data-i18n="step1.t">Keşif</h3><p data-i18n="step1.d">İhtiyacınızı, kullanıcılarınızı ve mevcut iş akışınızı birlikte çıkarırız.</p></li>
+          <li><span class="p-num">02</span><h3 data-i18n="step2.t">Prototip</h3><p data-i18n="step2.d">Kısa sürede tıklanabilir bir ilk sürümle fikri doğrularız.</p></li>
+          <li><span class="p-num">03</span><h3 data-i18n="step3.t">Geliştirme</h3><p data-i18n="step3.d">Düzenli teslimlerle, her adımda geri bildiriminizle ilerleriz.</p></li>
+          <li><span class="p-num">04</span><h3 data-i18n="step4.t">Yayın ve destek</h3><p data-i18n="step4.d">Canlıya alır, izler ve ürünü sizinle birlikte büyütürüz.</p></li>
+        </ol>
+
+        <div class="principles">
+          <div>
+            <h3 data-i18n="pr1.t">Yapay zekâ, insan onayıyla</h3>
+            <p data-i18n="pr1.d">Üretilen her içerik yayından önce bir uzmanın kontrolünden geçer.</p>
+          </div>
+          <div>
+            <h3 data-i18n="pr2.t">Önce veri gizliliği</h3>
+            <p data-i18n="pr2.d">KVKK'ya uygun tasarım; veriler yalnızca gerektiği kadar işlenir.</p>
+          </div>
+          <div>
+            <h3 data-i18n="pr3.t">Açık kaynağa katkı</h3>
+            <p data-i18n="pr3.d">HS Studio'yu herkesin kullanabileceği şekilde açık geliştiriyoruz.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-tint" id="hakkimizda" aria-labelledby="about-title">
+      <div class="wrap about">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">Hakkımızda</p>
+          <h2 id="about-title" data-i18n="about.title">Ankara'dan, küçük ve odaklı bir ekip</h2>
+          <p class="about-lead" data-i18n="about.p1">TurkuazCode, Ankara'da kurulmuş iki kişilik bir yazılım girişimi. Yapay zekâyı gerçek iş problemlerine uygulayan ürünler geliştiriyoruz: yayınevlerinden belediyelere, online mağazalardan dershanelere.</p>
+          <p class="about-lead" data-i18n="about.p2">Küçük olmanın avantajını kullanıyoruz. Projenizde aracı yok; sizinle konuşan kişi, kodu yazan kişi.</p>
+        </div>
+        <ul class="about-list">
+          <li><h3 data-i18n="about.i1t">Doğrudan iletişim</h3><p data-i18n="about.i1d">Proje boyunca muhatabınız, ürünü geliştiren ekip.</p></li>
+          <li><h3 data-i18n="about.i2t">Uçtan uca geliştirme</h3><p data-i18n="about.i2d">Tasarım, web, mobil, backend ve yapay zekâ aynı ekipte.</p></li>
+          <li><h3 data-i18n="about.i3t">Teslimden sonra da yanınızda</h3><p data-i18n="about.i3d">Yayına aldığımız ürünü izliyor, sizinle birlikte büyütüyoruz.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="iletisim" aria-labelledby="contact-title">
+      <div class="wrap contact">
+        <div class="contact-info">
+          <p class="eyebrow eyebrow-light" data-i18n="contact.eyebrow">İletişim</p>
+          <h2 id="contact-title" data-i18n="contact.title">Projenizi konuşalım</h2>
+          <p class="contact-lead" data-i18n="contact.lead">Bir ürün için demo, yeni bir proje ya da iş birliği. Formu doldurun veya size en uygun kanaldan yazın. Genellikle bir iş günü içinde dönüş yapıyoruz.</p>
+          <ul class="channels">
+            <li>
+              <a href="mailto:turkuazcode@gmail.com">
+                <span class="c-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg></span>
+                <span><small data-i18n="ch.email">E-posta</small>turkuazcode@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+905396908501">
+                <span class="c-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+                <span><small data-i18n="ch.phone">Telefon</small>0 539 690 85 01</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/905396908501" target="_blank" rel="noopener">
+                <span class="c-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 1a4 4 0 0 1-2-2l1-1-1-2z"/></svg></span>
+                <span><small>WhatsApp</small>0 539 690 85 01</span>
+              </a>
+            </li>
+            <li id="instagramItem" hidden>
+              <a id="instagramLink" href="#" target="_blank" rel="noopener">
+                <span class="c-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg></span>
+                <span><small>Instagram</small><span id="instagramHandle"></span></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/turkuazcode" target="_blank" rel="noopener">
+                <span class="c-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.270.65 5.090 1 5.090 1A5.070 5.070 0 0 0 5 4.770a5.440 5.440 0 0 0-1.500 3.780c0 5.420 3.300 6.610 6.440 7A3.370 3.370 0 0 0 9 18.130V22"/></svg></span>
+                <span><small>GitHub</small>github.com/turkuazcode</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3 class="form-title" data-i18n="f.title">Bize yazın</h3>
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field-row">
+            <label class="field">
+              <span data-i18n="f.name">Ad Soyad</span>
+              <input name="name" type="text" autocomplete="name" required maxlength="100">
+            </label>
+            <label class="field">
+              <span data-i18n="f.email">E-posta</span>
+              <input name="email" type="email" autocomplete="email" required maxlength="150">
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span><span data-i18n="f.phone">Telefon</span> <small data-i18n="f.optional">(isteğe bağlı)</small></span>
+              <input name="phone" type="tel" autocomplete="tel" maxlength="30">
+            </label>
+            <label class="field">
+              <span data-i18n="f.topic">Konu</span>
+              <select name="topic">
+                <option value="Yeni proje" data-i18n="t.project">Yeni proje</option>
+                <option value="Demo talebi" data-i18n="t.demo">Demo talebi</option>
+                <option value="İş birliği" data-i18n="t.partner">İş birliği</option>
+                <option value="Diğer" data-i18n="t.other">Diğer</option>
+              </select>
+            </label>
+          </div>
+          <label class="field">
+            <span data-i18n="f.message">Mesajınız</span>
+            <textarea name="message" rows="5" required maxlength="4000"></textarea>
+          </label>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span><span data-i18n="f.consent1">Mesajımın yanıtlanması için iletişim bilgilerimin işlenmesini ve form hizmet sağlayıcısı aracılığıyla yurt dışındaki sunuculara aktarılmasını kabul ediyorum.</span> <button type="button" class="inline-link" data-open-kvkk data-i18n="f.consent2">Aydınlatma Metni</button></span>
+          </label>
+          <button class="btn btn-primary btn-lg btn-block" type="submit" id="submitBtn" data-i18n="f.submit">Mesajı gönder</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="TurkuazCode">
+          <img class="brand-logo" src="assets/logo-imza-koyu-zemin.svg" alt="" width="230" height="40">
+        </a>
+        <p data-i18n="footer.about">Yapay zekâ destekli SaaS platformları, mobil ve masaüstü uygulamalar. Türkiye'den.</p>
+      </div>
+      <div>
+        <h3 data-i18n="footer.products">Ürünler</h3>
+        <ul>
+          <li><a href="#urunler" data-i18n="p.pub.t">Yayınevi Platformu</a></li>
+          <li><a href="#urunler" data-i18n="p.mirror.t">Ayna Soru Platformu</a></li>
+          <li><a href="#urunler" data-i18n="p.center.t">Dershane Yönetim Sistemi</a></li>
+          <li><a href="#urunler">TurkuazChat</a></li>
+          <li><a href="https://github.com/turkuazcode/hs-studio" target="_blank" rel="noopener">HS Studio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="footer.company">Şirket</h3>
+        <ul>
+          <li><a href="#hizmetler" data-i18n="nav.services">Hizmetler</a></li>
+          <li><a href="#surec" data-i18n="nav.process">Süreç</a></li>
+          <li><a href="#hakkimizda" data-i18n="nav.about">Hakkımızda</a></li>
+          <li><a href="#iletisim" data-i18n="nav.contact">İletişim</a></li>
+          <li><button type="button" class="inline-link" data-open-kvkk data-i18n="footer.kvkk">KVKK Aydınlatma Metni</button></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="nav.contact">İletişim</h3>
+        <ul>
+          <li><a href="mailto:turkuazcode@gmail.com">turkuazcode@gmail.com</a></li>
+          <li><a href="tel:+905396908501">0 539 690 85 01</a></li>
+          <li><a href="https://github.com/turkuazcode" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© <span id="year">2026</span> TurkuazCode. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+    </div>
+  </footer>
+
+  <dialog class="kvkk" id="kvkkDialog" aria-labelledby="kvkk-title">
+    <div class="kvkk-inner">
+      <div class="kvkk-head">
+        <h2 id="kvkk-title" data-i18n="kvkk.title">KVKK Aydınlatma Metni</h2>
+        <button type="button" class="icon-btn" id="kvkkClose" aria-label="Kapat">✕</button>
+      </div>
+      <div class="kvkk-body">
+        <p data-i18n="kvkk.p1">Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 10. maddesi uyarınca, turkuazcode.com üzerindeki iletişim formu aracılığıyla paylaştığınız kişisel verilerin işlenmesi hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.</p>
+        <h3 data-i18n="kvkk.h1">Veri sorumlusu</h3>
+        <p data-i18n="kvkk.p2">TurkuazCode. İletişim: turkuazcode@gmail.com</p>
+        <h3 data-i18n="kvkk.h2">İşlenen veriler</h3>
+        <p data-i18n="kvkk.p3">Ad soyad, e-posta adresi, isteğe bağlı olarak telefon numarası ve mesajınızın içeriği.</p>
+        <h3 data-i18n="kvkk.h3">İşleme amacı ve hukuki sebebi</h3>
+        <p data-i18n="kvkk.p4">Verileriniz yalnızca talebinize yanıt vermek, demo veya proje görüşmesi planlamak amacıyla, Kanun'un 5/2-c (bir sözleşmenin kurulması öncesi gerekli olması) ve 5/2-f (meşru menfaat) hükümlerine dayanılarak işlenir.</p>
+        <h3 data-i18n="kvkk.h4">Aktarım</h3>
+        <p data-i18n="kvkk.p5">Form mesajları, e-posta iletimini sağlayan hizmet sağlayıcısı (Web3Forms) aracılığıyla iletilir. Bu sağlayıcının sunucuları yurt dışında bulunduğundan aktarım, Kanun'un 9. maddesi kapsamında açık rızanıza dayanır. Verileriniz başka üçüncü kişilerle paylaşılmaz.</p>
+        <h3 data-i18n="kvkk.h5">Saklama süresi</h3>
+        <p data-i18n="kvkk.p6">Yazışmalar, talebiniz sonuçlandıktan sonra en fazla iki yıl saklanır ve ardından silinir.</p>
+        <h3 data-i18n="kvkk.h6">Haklarınız</h3>
+        <p data-i18n="kvkk.p7">Kanun'un 11. maddesi uyarınca verilerinizin işlenip işlenmediğini öğrenme, düzeltilmesini veya silinmesini isteme ve işlemeye itiraz etme haklarına sahipsiniz. Taleplerinizi turkuazcode@gmail.com adresine iletebilirsiniz.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
